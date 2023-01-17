@@ -1,0 +1,13 @@
+//variables and functions
+@import "functions";
+@import "variables";
+
+//base and layout
+@import "base";
+
+//colors
+@import "colors";
+
+// components and cards (buttons, cards,navbar, forms, etc)
+@import "components/card";
+@import "components/button"; //utility classes (margins, paddings, etc)

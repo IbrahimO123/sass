@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+* {
+  color: inherit;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: $primary;
+  margin-bottom: $base-margin;
+}
+a {
+  color: $secondary;
+}
+button {
+  color: white;
+  border: 0;
+  background-color: $primary;
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+}
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+.notification {
+  color: $info;
+  border-color: $info;
+  border-style: solid;
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
